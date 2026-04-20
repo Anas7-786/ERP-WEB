@@ -29,14 +29,10 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <div className="text-sm uppercase tracking-[0.32em] text-sky-600">Smart ERP for seamless business flow</div>
           <div className="space-y-4">
             <h1 className="max-w-3xl text-5xl font-semibold tracking-tight text-slate-950 sm:text-6xl">
               Control Your Business. Not Just Your Accounts.
             </h1>
-            <p className="max-w-2xl text-base leading-7 text-slate-600">
-              Flowtics is a smart, modular ERP designed to manage multiple businesses, automate accounting, and deliver real-time consolidated insights.
-            </p>
           </div>
           <div className="flex flex-col gap-3 sm:flex-row">
             <Link href="/contact" className="btn-brand">
